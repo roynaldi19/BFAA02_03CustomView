@@ -9,7 +9,6 @@ import androidx.appcompat.widget.AppCompatButton
 import androidx.core.content.ContextCompat
 
 class MyButton : AppCompatButton {
-
     private var enabledBackground: Drawable? = null
     private var disabledBackground: Drawable? = null
     private var txtColor: Int = 0

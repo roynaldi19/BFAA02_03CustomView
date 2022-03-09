@@ -12,7 +12,6 @@ import androidx.appcompat.widget.AppCompatEditText
 import androidx.core.content.ContextCompat
 
 class MyEditText : AppCompatEditText, View.OnTouchListener {
-
     private lateinit var mClearButtonImage: Drawable
 
     constructor(context: Context) : super(context) {
@@ -30,7 +29,6 @@ class MyEditText : AppCompatEditText, View.OnTouchListener {
     ) {
         init()
     }
-
 
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
@@ -68,7 +66,6 @@ class MyEditText : AppCompatEditText, View.OnTouchListener {
             mClearButtonImage,
             null
         )
-
     }
 
     private fun hideClearButton() {
